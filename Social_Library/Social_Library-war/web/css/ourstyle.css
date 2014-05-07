@@ -1,0 +1,85 @@
+
+/* 
+    Created on : 03.01.2014, 23:03:52
+    Author     : Pavel 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width:auto;
+    text-align:left;
+    margin:  auto;
+}
+
+#main { background: #eee }
+
+#header {
+    height: 70px;
+    background: #aaa;
+    padding: 5px;
+}
+#menu ul li {display: inline;}
+
+#menu ul {
+    float: right;
+    border-bottom:2px solid #000000; 
+    margin-left:0;
+    padding:3px 0;
+}
+#menu ul li a:link {color:#493;}
+#menu ul li a:visited {color:#647;}
+#menu ul li a:hover {
+    color:#000;
+    background:#6699FF;
+    border-color:#227}
+
+#menu ul li a#nowopen {
+    background:#fff; 
+    border-bottom: 1px solid #fff;
+}
+
+#menu ul li a {
+    text-decoration:none; 
+    margin-left:3px; 
+    border:1px solid #000000; 
+    padding: 3px 4px; 
+    border-bottom:0; 
+    background:#CEDEFF;
+}
+
+.refLabelText {
+    line-height: 150%;
+    font-size: x-large;
+}
+
+
+
+#footer {
+    height: 60px;
+    clear: left;
+    background: #aaa;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 2px;
+    margin: 0 ;
+    width:auto;
+}
+
+b {
+    text-decoration:none;
+    color:#007700;
+}
+
+
+
+#center {
+    height:auto;
+    width: 500px;
+    float: left;
+    background: #eee;
+    margin: 10px;
+}
+

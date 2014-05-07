@@ -1,0 +1,15 @@
+# Package Files #
+*.class
+*.jar
+*.war
+*.ear
+*.properties
+**/nbproject/
+**/private/
+**/build/
+**/dist/
+build.xml
+*.class
+/Social_Library/Social_Library-ejb/build/
+/Social_Library/Social_Library-war/dist/
+/Social_Library/Social_Library-ejb/dist/
